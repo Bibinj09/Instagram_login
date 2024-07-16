@@ -1,0 +1,109 @@
+*/{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+body{
+    background-color: white;
+}
+
+.container{
+    margin-top: 5px;
+    
+}
+
+.center-column{
+    margin:20px;
+    background-color: white;
+    border: 1px solid #adadad;
+    width: 350px;
+    padding: 40px;
+}
+
+.instagram-logo{
+    width: 170px;
+    height: 100%;
+}
+
+.text-for-member{
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 16px;
+    color: #999;
+}
+
+.or{
+    font-size: 13px !important;
+    color: #999;
+    font-weight: 600;
+}
+
+.or::before{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 2px;
+    width: 110px;
+    position: relative;
+    top: 11px;
+}
+
+.or::after{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 2px;
+    width: 110px;
+    position: relative;
+    bottom: 10px;
+    left: 160px;
+}
+
+.form-group{
+    margin-bottom: 6px!important;
+}
+
+.form-control{
+    background: #f1f1f1!important;
+    font-size: 12px!important;
+    color: #1d1d1d!important;
+    font-weight: 500!important;
+}
+
+::placeholder{
+    color: #999!important;
+    
+}
+
+
+.site-rule{
+    line-height: 18px;
+    font-size: 13px;
+    color: #999;
+    
+}
+
+.site-rule a{
+    line-height: 18px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #0059b8;
+}
+
+
+.sign-btn{
+    width: 100%;
+    background-color: #0097f7!important;
+    color: white!important;
+    font-size: 14px!important;
+}
+
+.log-btn{
+    width: 100%;
+    background-color: #0097f7!important;
+    color: white!important;
+}
